@@ -1,0 +1,120 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "/home/qualquer/Documentos/Meu Portfolio/portfolio/src/styles.css": {
+    "file": "assets/styles-8TP_t2cC.css",
+    "src": "/home/qualquer/Documentos/Meu Portfolio/portfolio/src/styles.css"
+  },
+  "_server-B0wV173V.js": {
+    "file": "assets/server-B0wV173V.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_worker-entry-COTgxUPi.js": {
+    "file": "assets/worker-entry-COTgxUPi.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-B0wV173V.js"
+    ]
+  },
+  "src/assets/arthur.png": {
+    "file": "assets/arthur-BQ4NNK_l.png",
+    "src": "src/assets/arthur.png"
+  },
+  "src/assets/connexa.png": {
+    "file": "assets/connexa-Dr_xaV4j.png",
+    "src": "src/assets/connexa.png"
+  },
+  "src/assets/gustavo.png": {
+    "file": "assets/gustavo-ClXRULzQ.png",
+    "src": "src/assets/gustavo.png"
+  },
+  "src/assets/hero-bg.jpg": {
+    "file": "assets/hero-bg-D99MKMqU.jpg",
+    "src": "src/assets/hero-bg.jpg"
+  },
+  "src/assets/me.jpeg": {
+    "file": "assets/me-C8RCEyMa.jpeg",
+    "src": "src/assets/me.jpeg"
+  },
+  "src/assets/project-n8n.jpeg": {
+    "file": "assets/project-n8n-CbOgEUaT.jpeg",
+    "src": "src/assets/project-n8n.jpeg"
+  },
+  "src/assets/project-vet.png": {
+    "file": "assets/project-vet-BirLvHr2.png",
+    "src": "src/assets/project-vet.png"
+  },
+  "src/assets/robson.png": {
+    "file": "assets/robson-D_pJIfbp.png",
+    "src": "src/assets/robson.png"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-BLmkRn39.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-B0wV173V.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-8TP_t2cC.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CEavFdqf.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-B0wV173V.js"
+    ],
+    "assets": [
+      "assets/hero-bg-D99MKMqU.jpg",
+      "assets/project-n8n-CbOgEUaT.jpeg",
+      "assets/project-vet-BirLvHr2.png",
+      "assets/me-C8RCEyMa.jpeg",
+      "assets/connexa-Dr_xaV4j.png",
+      "assets/gustavo-ClXRULzQ.png",
+      "assets/arthur-BQ4NNK_l.png",
+      "assets/robson-D_pJIfbp.png"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-BVjI-J3o.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-COTgxUPi.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-CwmEJt-Q.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-COTgxUPi.js"
+    ]
+  }
+}
